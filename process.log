@@ -1,0 +1,54 @@
+2024-10-21 18:25:04,407 - INFO - Starting to fetch and transform world bank indicator data.
+2024-10-21 18:25:10,501 - INFO - Data successfully fetched and transformed.
+2024-10-21 18:25:10,501 - INFO - Starting to save data to sql server
+2024-10-21 18:30:03,480 - INFO - Starting to fetch and transform world bank indicator data.
+2024-10-21 18:30:08,001 - INFO - Data successfully fetched and transformed.
+2024-10-21 18:30:08,023 - INFO - Starting to save data to sql server
+2024-10-21 18:35:03,340 - INFO - Starting to fetch and transform world bank indicator data.
+2024-10-21 18:35:08,715 - INFO - Data successfully fetched and transformed.
+2024-10-21 18:35:08,625 - INFO - Starting to save data to sql server
+2024-10-21 18:40:03,888 - INFO - Starting to fetch and transform world bank indicator data.
+2024-10-21 18:40:08,315 - INFO - Data successfully fetched and transformed.
+2024-10-21 18:40:08,315 - INFO - Starting to save data to sql server
+2024-10-21 18:45:04,557 - INFO - Starting to fetch and transform world bank indicator data.
+2024-10-21 18:45:09,705 - INFO - Data successfully fetched and transformed.
+2024-10-21 18:45:09,705 - INFO - Starting to save data to sql server
+2024-10-21 20:21:24,121 - INFO - Starting to fetch and transform world bank indicator data.
+2024-10-21 20:21:26,201 - INFO - Data successfully fetched and transformed.
+2024-10-21 20:21:26,201 - INFO - Starting to save data to sql server
+2024-10-21 20:22:28,245 - INFO - Starting to fetch and transform world bank indicator data.
+2024-10-21 20:22:30,280 - INFO - Data successfully fetched and transformed.
+2024-10-21 20:22:30,280 - INFO - Starting to save data to sql server
+2024-10-21 20:29:24,906 - INFO - Starting to fetch and transform world bank indicator data.
+2024-10-21 20:29:28,521 - INFO - Data successfully fetched and transformed.
+2024-10-21 20:29:28,521 - INFO - Starting to save data to sql server
+2024-10-21 20:29:29,687 - INFO - Data successfully saved in SQL server as table indicator_fact.
+2024-10-21 20:30:49,838 - INFO - Starting to fetch and transform world bank indicator data.
+2024-10-21 20:30:54,098 - INFO - Data successfully fetched and transformed.
+2024-10-21 20:30:54,098 - INFO - Starting to save data to sql server
+2024-10-21 20:31:38,849 - INFO - Starting to fetch and transform world bank indicator data.
+2024-10-21 20:31:44,407 - INFO - Data successfully fetched and transformed.
+2024-10-21 20:31:44,407 - INFO - Starting to save data to sql server
+2024-10-21 20:31:45,742 - INFO - Data successfully saved in SQL server as table indicator_fact.
+2024-10-21 20:35:04,432 - INFO - Starting to fetch and transform world bank indicator data.
+2024-10-21 20:35:10,104 - INFO - Data successfully fetched and transformed.
+2024-10-21 20:35:10,104 - INFO - Starting to save data to sql server
+2024-10-21 20:35:11,060 - INFO - Data successfully saved in SQL server as table indicator_fact.
+2024-10-21 20:40:04,431 - INFO - Starting to fetch and transform world bank indicator data.
+2024-10-21 20:40:09,181 - INFO - Data successfully fetched and transformed.
+2024-10-21 20:40:09,196 - INFO - Starting to save data to sql server
+2024-10-21 20:40:09,648 - INFO - Data successfully saved in SQL server as table indicator_fact.
+2024-10-21 20:42:03,304 - INFO - Starting to fetch and transform world bank indicator data.
+2024-10-21 20:42:08,507 - INFO - Data successfully fetched and transformed.
+2024-10-21 20:43:10,507 - INFO - Starting to save data to sql server
+2024-10-21 20:43:22,757 - INFO - Data successfully saved in SQL server as table indicator_fact.
+2024-10-21 21:00:23,152 - INFO - Starting to fetch and transform world bank indicator data.
+2024-10-21 21:00:30,961 - INFO - Data successfully fetched and transformed.
+2024-10-21 21:00:30,961 - INFO - Starting to save data to sql server
+2024-10-21 21:00:32,637 - INFO - Data successfully saved in SQL server as table indicator_fact.
+2024-10-21 21:01:12,645 - INFO - Starting to fetch and transform World Bank indicator data.
+2024-10-21 21:01:18,311 - INFO - Data successfully fetched and transformed.
+2024-10-21 21:01:18,311 - INFO - Starting to save data to SQL Server.
+2024-10-21 21:02:52,730 - INFO - Starting to fetch and transform World Bank indicator data.
+2024-10-21 21:02:54,628 - INFO - Data successfully fetched and transformed.
+2024-10-21 21:02:54,835 - INFO - Starting to save data to SQL Server.
