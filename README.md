@@ -1,7 +1,9 @@
 # Gender Data Automation Project
 
+
 ## Overview
 This project automates the process of fetching, transforming, and storing gender-related data from the World Bank API into a SQL Server database. The automation script runs daily, ensuring that the latest data is always available for analysis.
+
 
 ## gender_statistics Project Structure
 
@@ -33,6 +35,7 @@ The project uses the following World Bank indicators:
 - **SE.PRM.UNER**: Children out of school, primary
 - **SP.DYN.IMRT.IN**: Mortality rate, infant (per 1,000 live births)
 
+  
 ## Requirements
 To run this project, you'll need the following:
 
@@ -44,37 +47,7 @@ To run this project, you'll need the following:
   - pytest
   - pyodbc
   - SQL Server
-  - Power BI
-
-You can install the required packages using pip:
-bash
-pip install pandas wbgapi sqlalchemy pytest pyodbc
-
-
-## Setup
-Clone the repository:
-
-bash
-
-git clone <repository-url>
-cd <repository-folder>
-
-## Configure SQL Server: 
-Edit the config.py file to include your SQL Server connection details.
-
-## Run the Jupyter Notebook: 
-Use gender_prepare.ipynb to explore the data and update the selected indicators if necessary.
-
-## Run the Automation Script: 
-Execute gender_automate.py to fetch data from the World Bank and save it to the SQL Server.
-
-## Schedule the Automation: 
-Use Windows Task Scheduler to run gender_automate.py daily:
-
-Open Task Scheduler and create a new task.
-Set the trigger to daily.
-Set the action to run the Python executable with the path to gender_automate.py.
-
+  - 
 
 ## Logging
 The project uses a logging mechanism to track the process. Logs are saved in process.log, which records the execution steps and any errors encountered.
