@@ -2,7 +2,7 @@
 
 
 ## Overview
-This project automates the process of fetching, transforming, and storing gender-related data to SQL Server database. The automation script runs daily, ensuring that the latest data is always available for analysis.
+The primary objective of this project is to automate the process of fetching gender-related statistics from an external API (World Bank) and storing them in a SQL Server database for further analysis and reporting. The entire process is automated using a Python script that is scheduled to run at specific intervals via Task Scheduler or an equivalent task scheduling system.
 
 
 ## gender_statistics Project Structure
@@ -20,8 +20,6 @@ This project automates the process of fetching, transforming, and storing gender
 6. process.log        # Log file that records the process steps and errors.
 
 
-
-
 ## Indicators
 The project uses the following World Bank indicators:
 
@@ -33,19 +31,22 @@ The project uses the following World Bank indicators:
 - **SE.PRM.UNER**: Children out of school, primary
 - **SP.DYN.IMRT.IN**: Mortality rate, infant (per 1,000 live births)
 
-  
-## Requirements
-To run this project, you'll need the following:
+## Technical Stack:
+Programming Language: Python
 
-- Python 3.6 or higher
-- Required Python packages:
-  - pandas
-  - wbgapi
-  - sqlalchemy
-  - pytest
-  - pyodbc
-  - SQL Server
-  - 
+## Libraries/Modules:
+- wbgapi: A library to fetch data from the World Bank API.
+- pandas: For data manipulation and transformation.
+- sqlalchemy: For interacting with SQL Server (using pyodbc).
+- pytest: For testing the functionality of the script.
+- logging: For logging execution details and errors.
+- openpyxl: If the Excel file (e.g., gender data.xlsx) is used for storing or loading data locally.
+
+## Database: 
+SQL Server (with ODBC connectivity)
+
+## Automated Execution
+Task Scheduler is used to automate the running of the script on a set schedule, ensuring the database is regularly updated with the latest data from the API.
 
 ## Logging
 The project uses a logging mechanism to track the process. Logs are saved in process.log, which records the execution steps and any errors encountered.
