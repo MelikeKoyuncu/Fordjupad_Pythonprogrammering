@@ -1,0 +1,10 @@
+Självutvärdering
+
+1. Utmaningar du haft under arbetet samt hur du hanterat dem.
+Den största utmaningen var förmodligen att skriva effektiva tester för att se till att alla delar av programmet fungerade som förväntat och använda enhetstester för att verifiera att ändringar i koden inte bröt befintlig funktionalitet.
+
+2. Vilket betyg du anser att du skall ha och varför.
+Jag anser att jag borde ha fått VG-betyget på kursen. Jag följde instruktionerna och genomförde uppgifterna för VG-nivån i kunskapskontroll. Jag dokumenterade, kommenterade och strukturerade också min kod med tanken att den skulle vara tydlig och enkel.
+
+3. Något du vill lyfta fram till Linus och Antonio?
+Kursens förväntningar och innehåll var bra, speciellt kurslitteraturen var bra, lite mer utmannande övningar kunde ha gjorts.
