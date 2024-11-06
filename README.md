@@ -11,15 +11,13 @@ This project automates the process of fetching, transforming, and storing gender
 
 2. config.py          # Configuration file for SQL Server and selected indicators. 
 
-3. gender_prepare.ipynb # Jupyter notebook for data exploration and updating indicators. 
+3. gender_api.py      # Contains functions for fetching and transforming data from excel file.
+   
+4. database.py        # Manages SQL Server connection and data insertion. 
 
-4. gender_api.py      # Contains functions for fetching and transforming data from excel file. 
+5. test_pipeline.py   # Unit tests for the functionality of the data pipeline. 
 
-5. database.py        # Manages SQL Server connection and data insertion. 
-
-6. test_pipeline.py   # Unit tests for the functionality of the data pipeline. 
-
-7. process.log        # Log file that records the process steps and errors.
+6. process.log        # Log file that records the process steps and errors.
 
 
 
