@@ -2,7 +2,7 @@
 
 
 ## Overview
-This project automates the process of fetching, transforming, and storing gender-related data from the World Bank API into a SQL Server database. The automation script runs daily, ensuring that the latest data is always available for analysis.
+This project automates the process of fetching, transforming, and storing gender-related data to SQL Server database. The automation script runs daily, ensuring that the latest data is always available for analysis.
 
 
 ## gender_statistics Project Structure
@@ -13,7 +13,7 @@ This project automates the process of fetching, transforming, and storing gender
 
 3. gender_prepare.ipynb # Jupyter notebook for data exploration and updating indicators. 
 
-4. gender_api.py      # Contains functions for fetching and transforming data from the World Bank API. 
+4. gender_api.py      # Contains functions for fetching and transforming data from excel file. 
 
 5. database.py        # Manages SQL Server connection and data insertion. 
 
